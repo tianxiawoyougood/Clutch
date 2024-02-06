@@ -24,7 +24,7 @@ NSInteger diff_ms(struct timeval t1, struct timeval t2) {
 }
 
 void listApps(void);
-void listApps() {
+void listApps(void) {
     KJApplicationManager *_manager = [[KJApplicationManager alloc] init];
 
     NSArray *installedApps = _manager.installedApps.allValues;

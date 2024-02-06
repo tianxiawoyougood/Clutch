@@ -199,7 +199,7 @@ typedef struct {
 
 /* Allocate a new data block */
 local linkedlist_datablock_internal *allocate_new_datablock OF((void));
-local linkedlist_datablock_internal *allocate_new_datablock() {
+local linkedlist_datablock_internal *allocate_new_datablock(void) {
     linkedlist_datablock_internal *ldi;
 
     ldi = (linkedlist_datablock_internal *)ALLOC(sizeof(linkedlist_datablock_internal));
