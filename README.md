@@ -1,3 +1,11 @@
+
+# 注意
+原项目因为不在维护了，Fork一份自己维护。
+
+1. 解决了项目编译不通过的问题。
+2. iOS最低支持版本改为iOS 12.0
+
+
 # Clutch
 
 *Clutch* is a high-speed iOS decryption tool. Clutch supports the iPhone, iPod Touch, and iPad as well as all iOS version, architecture types, and most binaries. **Clutch is meant only for educational purposes and security research.**
